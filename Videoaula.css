@@ -1,19 +1,19 @@
 
 body {
-    background-color: #F2F2F2;
-    color: #333;
+    background-color:#F8F9FA;
+    color: #4B0082;
 }
 
 header {
-    background-color: #9C27B0;
-    color: #FFF;
-    padding: 20px;
+    background-color: #9400D3;
+    color: #000000;
+    padding: 15px;
     text-align: center;
 }
 
 .subtitulo {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 3px;
 }
 
 p {
@@ -21,19 +21,23 @@ p {
 }
 
 .caixas {
+    padding-top: 5vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: Wrap;   
     justify-content: space-around;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .caixa {
     background-color: #E6E6FA;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #4B0082 ;
     width: calc(25% - 20px);
     margin-bottom: 20px;
+}
+h1 {
+
 }
 
 h2 {
