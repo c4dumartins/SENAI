@@ -1,0 +1,102 @@
+/* Cores */
+body {
+  background-color: #9c27b0;
+  /* Roxo */
+  color: #333;
+  /* Preto */
+  font-family: sans-serif;
+}
+
+.classe {
+  background-color: #d455d4;
+  color: black;
+}
+
+.destaque {
+  color: #f00;
+  /* Vermelho */
+}
+
+/* Cabeçalho */
+header {
+  background-color: #9c27b0;
+  /* Roxo */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.titulo-principal {
+  font-size: 2.5em;
+  margin-right: 20px;
+}
+
+.icone-livro {
+  width: 80px;
+  height: auto;
+}
+
+/* Lista de livros */
+main {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+ul.lista-livros {
+  list-style: none;
+  padding: 0;
+}
+
+ul.lista-livros li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .titulo-principal {
+    font-size: 2em;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-principal {
+    font-size: 1.5em;
+  }
+
+  ul.lista-livros li {
+    padding: 5px 0;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+}
+
+.texto-footer {
+  font-size: 0.8em;
+}
