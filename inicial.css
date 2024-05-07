@@ -1,0 +1,84 @@
+body {
+    background-color: #a40ba4; /* Roxo */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+h1 {
+    color: #000000;
+    font-size: 3em;
+    margin-bottom: 20px;
+    background-color: rgb(165, 28, 189);
+    margin-left:-750px;
+}
+
+p {
+    color:6c1190;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+form {
+    display: inline-block;
+}
+
+.barra{
+    background-color: red;
+    height: 60px;
+}
+
+
+
+
+.search-box {
+    width: 450px;
+    height: 30px;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 1px solid #6a0b8f;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    height: 100px;
+    font-size: 1.2em;
+    padding: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c1190;
+    color: #800080;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c1190;
+}
+
+@media (max-width: 550px) {
+    .search-box {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+   /* Estilos existentes para container, h1, p, search-box, button... */
+
+
+}
+
+
+    
+
+  
