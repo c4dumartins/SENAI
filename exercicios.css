@@ -1,13 +1,13 @@
 CSS
 body {
     
-    background-color: #D8B2FF; /* Lilás */
+    background-color: rgb(238, 124, 236); /* Lilás */
     font-family: sans-serif;
 }
 
 header {
     background-color: #8B008B; /* Roxo */
-    color: #fff;
+    color: rgb(2, 1, 2);
     text-align: center;
     padding: 20px 0;
 }
@@ -19,24 +19,25 @@ header {
 
 h1 {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .subtitle {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .baloons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 60
 }
 
 .baloon {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
+    background-color: hwb(291 43% 3%);
+    border-radius: 60px;
+    padding: 40px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     flex: 1 0 30%;
 }
