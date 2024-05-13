@@ -11,13 +11,29 @@ header {
     text-align: center;
 }
 
+
+.titulo {
+    font-size: 50px;
+}
+
 .subtitulo {
-    font-size: 1.2em;
+    font-size:5px;
     margin-bottom: 10px;
+    text-align: end;
+}
+
+.texto {
+    color: black;
+    font-size: 25px;
+    text-align: center;
 }
 
 p {
     margin-bottom: 20px;
+}
+
+.centraliza{
+    text-align: center;
 }
 
 .caixas {
