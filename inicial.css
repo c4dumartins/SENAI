@@ -1,5 +1,5 @@
 body {
-    background-color: #a40ba4; /* Roxo */
+    background-color: #b554b5; /* Roxo */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -12,19 +12,22 @@ body {
 
 
 
-
 h1 {
     color: #000000;
     font-size: 3em;
     margin-bottom: 20px;
     background-color: rgb(165, 28, 189);
     margin-left:-750px;
-}
+    font-family: 'Georgia', sans-serif;
+    text-align: center;
+      }
+    
 
 p {
     color:6c1190;
     font-size: 1.2em;
     margin-bottom: 40px;
+      
 }
 
 form {
@@ -38,14 +41,39 @@ form {
 
 
 
+.SENAIFOTO {
+    width: 100%; /* Reduz a largura para 50% */
+    margin: 45px auto; /* Adiciona margem superior e inferior, e centraliza na horizontal */
+    border: 10px solid #ffffff; /* Adiciona borda cinza */
+    border-radius: 20px; /* Arredonda os cantos */
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3); /* Efeito sombra */
+    height: 500px;
+    padding: 10px;
+    padding-top: 10px;
+    
+  }
+
+
+  img.USUARIOFOTO {
+    width: 5%; /* Reduz a largura para 50% */
+    margin: 1px auto; /* Adiciona margem superior e inferior, e centraliza na horizontal */
+    border: 5px solid #ccc; /* Adiciona borda cinza */
+    border-radius: 5px; /* Arredonda os cantos */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Efeito sombra */
+    height: 64px;
+    margin-left: 1000px;
+  }
+  
+  
+
 
 .search-box {
-    width: 450px;
+    width: 750px;
     height: 30px;
-    font-size: 1.2em;
-    padding: 10px;
+    font-size: 1.8em;
+    padding: 30px;
     border: 1px solid #6a0b8f;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
 }
 
@@ -78,7 +106,3 @@ button:hover {
 
 }
 
-
-    
-
-  
