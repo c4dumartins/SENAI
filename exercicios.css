@@ -1,12 +1,12 @@
 CSS
 body {
     
-    background-color: rgb(238, 124, 236); /* Lilás */
+    background-color: #f084ee; /* Lilás */
     font-family: sans-serif;
 }
 
 header {
-    background-color: #8B008B; /* Roxo */
+    background-color: #b018b0; /* Roxo */
     color: rgb(2, 1, 2);
     text-align: center;
     padding: 20px 0;
@@ -37,6 +37,7 @@ h1 {
     background-color: hwb(291 43% 3%);
     border-radius: 60px;
     padding: 40px;
+    margin: 40px;
     text-align: center;
     margin-bottom: 60px;
     flex: 1 0 30%;
