@@ -43,3 +43,18 @@ footer p {
     color: black;
     margin-top: 10px;
 }
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
+    form {
+        width: 80%; /* Adjust form width for smaller screens */
+    }
+
+    label {
+        margin-bottom: 20px; /* Reduce margin for smaller screens */
+        margin-top: 40px;
+    }
+
+    .inputs {
+        margin-bottom: 20px; /* Reduce margin for smaller screens */
+    }
