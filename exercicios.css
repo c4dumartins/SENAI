@@ -1,15 +1,15 @@
 CSS
-body {
-    
-    background-color: #f084ee; /* Lilás */
-    font-family: sans-serif;
-}
+
+
+.background {
+    font-family: Arial, sans-serif;
+    background-color: purple; /* Roxo claro */
+    color: #333; /* Preto */
+  }
 
 header {
-    background-color: #b018b0; /* Roxo */
-    color: rgb(2, 1, 2);
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
 }
 
 .container {
@@ -21,6 +21,12 @@ h1 {
     font-size: 3em;
     margin-bottom: 50px;
 }
+.faixa-roxo {
+    background-color: #ea7be6; /* Roxo mais claro */
+    padding: 12px;
+    text-align: center;
+    padding-top: 10px;
+  }
 
 .subtitle {
     font-size: 2em;

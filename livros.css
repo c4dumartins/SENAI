@@ -8,8 +8,14 @@ body {
 }
 
 .classe {
-  background-color: #d455d4;
+  background-color: hwb(286 58% 5%);
   color: black;
+}
+.faixa-rox {
+  background-color: #ea7be6; /* Roxo mais claro */
+  padding: 12px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .destaque {
