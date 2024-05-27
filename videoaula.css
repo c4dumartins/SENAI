@@ -1,11 +1,11 @@
 
 .fundo {
-    background-color: #DDA0DD;
+    background-color: #EE82EE;
     color: #333;
 }
 
 header {
-    background-color: #9932CC;
+    background-color: #8B008B;
     color: #FFF;
     padding: 20px;
     text-align: center;
@@ -16,11 +16,6 @@ header {
     font-size: 50px;
 }
 
-.subtitulo {
-    font-size:5px;
-    margin-bottom: 10px;
-    text-align: end;
-}
 
 .texto {
     color: black;
@@ -30,7 +25,7 @@ header {
 
 p {
     margin-bottom: 20px;
-    color: #8B008B;
+    color: black;
 }
 
 .centraliza{
@@ -43,7 +38,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    padding: 20px;
 }
 
 .caixa {
