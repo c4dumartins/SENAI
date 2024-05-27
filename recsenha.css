@@ -42,12 +42,7 @@ body {
     margin-bottom: 100px;
   }
   
-  /* Grupos de input */
-  .input-group {
-    margin-bottom: 100px;
-    display: flex;
-    align-items: center;
-    width: 200%;
+
   }
   
   label {
@@ -60,6 +55,7 @@ body {
     padding: 10px;
     border: 1px solid #0d0b0b;
     border-radius: 5px;
+    padding-bottom: 10px;
   }
   
   /* Botão de envio */
@@ -67,7 +63,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
+    margin: 75px auto;
     padding: 10px 20px;
     background-color: #000000; /* Roxo escuro */
     color: #fff;
