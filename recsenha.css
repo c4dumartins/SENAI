@@ -1,0 +1,84 @@
+/* Cores */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Roxo claro */
+    color: #333; /* Preto */
+  }
+  
+  .faixa-roxo {
+    background-color: #e8eaf5; /* Roxo mais claro */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; /* Preto */
+  }
+  
+  /* Container principal */
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Cabeçalho do formulário */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Grupos de input */
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-right: 10px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botão de envio */
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333; /* Roxo escuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsividade para telas menores */
+  @media screen and (max-width: 768px) {
+    .input-group label {
+      width: auto;
+    }
+  
+    .input-group input[type="email"] {
+      width: 100%;
+    }
+  }
+  
