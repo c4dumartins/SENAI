@@ -2,9 +2,10 @@ CSS
 
 
 .background {
-    font-family: Arial, sans-serif;
-    background-color: purple; /* Roxo claro */
+    font-family:comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background-color: hwb(302 59% 2%) ; /* Roxo claro */
     color: #333; /* Preto */
+    
   }
 
 header {
@@ -18,18 +19,20 @@ header {
 }
 
 h1 {
-    font-size: 3em;
-    margin-bottom: 50px;
+    font-size: 2em;
+    margin-bottom: 35px;
 }
 .faixa-roxo {
-    background-color: #ea7be6; /* Roxo mais claro */
-    padding: 12px;
+    background-color: hwb(302 59% 2%); /* Roxo mais claro */
+    padding: 1px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 7px;
+    text-size: 20px
   }
 
 .subtitle {
-    font-size: 2em;
+    font-size: 9em;
+
 }
 
 .baloons {
@@ -40,11 +43,15 @@ h1 {
 }
 
 .baloon {
-    background-color: hwb(291 43% 3%);
+    background-color: #e789f8;
     border-radius: 60px;
     padding: 40px;
     margin: 40px;
     text-align: center;
     margin-bottom: 60px;
     flex: 1 0 30%;
+}
+
+.fundo{
+    background-color: hwb(299 14% 33%);
 }
