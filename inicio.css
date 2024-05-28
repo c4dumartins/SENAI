@@ -1,269 +1,45 @@
 body {
-    background-color: #b554b5; /* Roxo */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #8B008B; /* Roxo */
+    color: white;
 }
 
+.classe {
+    background-color: #DDA0DD;
+    color: black;
+}
 
-
-
-
-.container {
+header {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
 }
-/* style.css */
-
-.abas {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin: 65px auto;
-
-}
-
-.abas-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.video-aulas {
-    justify-content: center;
-
-
-}
-
-
-
-.abas-nav li {
-    margin-right: 2px;
-
-}
-
-.abas-nav a {
-    padding: 10px 5px;
-    text-decoration: none;
-    color: #9700a5;
-    border: 1px solid #e2e0e0;
-    display: flex;
-    border-radius: 50px;
-}
-
-.h2E {
-    font-family: 'Georgia', sans-serif;
-
-    
-}
-
-.h2M {
-    font-family: 'Georgia', sans-serif;
-
-}
-
-.h2A {
-    font-family: 'Georgia', sans-serif;
-
-}
-
-.h2V {
-    font-family: 'Georgia', sans-serif;
-
-}
-
-.h2L {
-
-    font-family: 'Georgia', sans-serif;
-
-}
-
-
-.abas-nav a:hover {
-    background-color: #af19dc;
-}
-
-
-
-.abas-content div {
-    display: none;
-}
-
-
 
 h1 {
-    color: #000000;
-    font-size: 3em;
-    margin-bottom: 20px;
-    background-color: rgb(165, 28, 189);
-    margin-left:-px;
-    font-family: 'Georgia', sans-serif;
+    color: ;
+}
+
+main {
     text-align: center;
-      }
-    
-
-p {
-    color:6c1190;
-    font-size: 1.2em;
-    margin-bottom: 40px;
-      
+    padding: 20px;
 }
 
-form {
-    display: inline-block;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.barra{
-    background-color: red;
-    height: 60px;
+footer {
+    text-align: center;
 }
 
-
- 
-
-
-
-.SENAIFOTO {
-    width: 100%; /* Reduz a largura para 50% */
-    margin: 45px auto; /* Adiciona margem superior e inferior, e centraliza na horizontal */
-    border: 10px solid #ffffff; /* Adiciona borda cinza */
-    border-radius: 20px; /* Arredonda os cantos */
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3); /* Efeito sombra */
-    height: 500px;
-    padding: 10px;
-    padding-top: 10px;
-    
-  }
-
-
-  img.USUARIOFOTO {
-    width: 5%; /* Reduz a largura para 50% */
-    margin: 1px auto; /* Adiciona margem superior e inferior, e centraliza na horizontal */
-    border: 5px solid #ccc; /* Adiciona borda cinza */
-    border-radius: 5px; /* Arredonda os cantos */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Efeito sombra */
-    height: 64px;
-    margin-left: 1000px;
-  }
-  
-  
-
-
-.search-box {
-    width: 650px;
-    height: 30px;
-    font-size: 1.8em;
-    padding: 30px;
-    border: 1px solid #6a0b8f;
-    border-radius: 10px;
-    outline: none;
+.linha {
+    border-top: 1px solid black;
+    margin-top: 20px;
 }
 
-.botao {
-    height: 15px;
-    font-size: 1.2em;
-    padding: 67px;
-    border: none;
-    border-radius: 8px;
-    background-color: #8537a4;
-    color: #a05aa0;
-    cursor: pointer;
+footer p {
+    color: black;
+    margin-top: 10px;
 }
-
-
-button:hover {
-    background-color: #af19dc;
-}
-
-@media (max-width: 550px) {
-    .search-box {
-        width: 100%;
-        font-size: 1em;
-    }
-
-    button {
-        font-size: 1em;
-    }
-   /* Estilos existentes para container, h1, p, search-box, button... */
-
-
-}
-/* Estilo geral dos botões */
-.container-botoes {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    flex-wrap: wrap; /* Permite que os botões quebrem em várias linhas se necessário */
-}
-
-.botao {
-    width: 35px;
-    height: 25px;
-    border-radius: 15%;
-    background-color: #ccc;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-    transition: background-color 0.3s;
-}
-
-.botao:hover {
-    background-color: #999;
-}
-
-.container-botoes{
-    top: 15px; /* Move 20px from the top of its container */
-    left: 50px;
-    margin-right: 15px;
-}
-
-.Books {
-  top: 150px; /* Move 20px from the top of its container */
-  left: 50px; /* Move 50px from the left of its container */
-  margin: 15px;
-
-}
-
-.Chat{
-    top: 150px; /* Move 20px from the top of its container */
-    left: 50px; /* Move 50px from the left of its container */
-    margin: 15px;
-
-
-}
-
-.vestibular {
-    top: 150px; /* Move 20px from the top of its container */
-    left: 50px; /* Move 50px from the left of its container */
-    margin: 15px;
-
-
-}
-
-.videoaula {
-    top: 150px; /* Move 20px from the top of its container */
-    left: 50px; /* Move 50px from the left of its container */
-    margin: 15px;
-
-
-
-}
-
-    .mapamental{
-        top: 150px; /* Move 20px from the top of its container */
-        left: 50px; /* Move 50px from the left of its container */
-        margin: 15px;
-
-
-    }
-
-    .exercicios{
-        top: 200px; /* Move 20px from the top of its container */
-        left: 100px; /* Move 50px from the left of its container */
-        margin: 15px;
-
-
-
-        
-    }
